@@ -1,0 +1,23 @@
+{
+  "name": "county-road-miles",
+  "version": "1.0.0",
+  "description": "Commands and SQL for calculating the length of roads by `highway` key in Open Street Map data by U.S. County.",
+  "main": "county.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriswhong/county-road-miles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriswhong/county-road-miles/issues"
+  },
+  "homepage": "https://github.com/chriswhong/county-road-miles#readme",
+  "dependencies": {
+    "download-file": "^0.1.5",
+    "pg-promise": "^5.5.2"
+  }
+}
